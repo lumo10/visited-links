@@ -2,5 +2,25 @@
   "name": "Visited Links",
   "version": "1.0.0",
   "description": "Keep and manage visited links across device",
+  "permissions": ["declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/visited_link16.png",
+      "32": "images/visited_link32.png",
+      "48": "images/visited_link48.png",
+      "128": "images/visited_link128.png"
+    }
+  },
+  "icons": {
+    "16": "images/visited_link16.png",
+    "32": "images/visited_link32.png",
+    "48": "images/visited_link48.png",
+    "128": "images/visited_link128.png"
+  },
   "manifest_version": 2
 }
