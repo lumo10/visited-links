@@ -18,7 +18,7 @@
   },
   "content_scripts": [ {
     "js": [ "src/js/content.js" ],
-    "matches": [ "http://*/*", "https://*/*" ],
+    "matches": [ "https://developer.chrome.com/*" ],
     "run_at": "document_end"
   } ],
   "icons": {
