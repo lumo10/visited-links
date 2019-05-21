@@ -4,11 +4,11 @@
   "description": "Keep and manage visited links across device",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["src/js/background.js"],
     "persistent": false
   },
   "page_action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup.html",
     "default_icon": {
       "16": "images/visited_links16.png",
       "32": "images/visited_links32.png",
@@ -22,6 +22,6 @@
     "48": "images/visited_links48.png",
     "128": "images/visited_links128.png"
   },
-  "options_page": "options.html",
+  "options_page": "src/options.html",
   "manifest_version": 2
 }
